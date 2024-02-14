@@ -41,6 +41,9 @@ export default function HomeLayout({
             <li>
               <Link href="/cashouts/create">Criar cashout</Link>
             </li>
+            <li>
+              <Link href="/wallet">Carteira</Link>
+            </li>
           </ul>
         </nav>
 

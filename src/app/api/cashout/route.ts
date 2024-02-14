@@ -36,7 +36,7 @@ export async function POST(request: Request) {
     countryCode: "BRA",
     creationDate: new Date().toISOString(),
     currencyCode: "BRL",
-    merchantReference: "TESTE2",
+    merchantReference: (Math.random() + 1).toString(36).substring(7),
     shopper: {
       docNumber: requestBody.docNumber,
       docType: "1",
